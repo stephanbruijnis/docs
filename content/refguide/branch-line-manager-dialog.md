@@ -38,7 +38,7 @@ In the **App repository address** field, enter the address of the app you want t
 
 ## 3 Managing Branch Lines
 
-In the **Branch Line Manager**, you can create and delete branch lines, and enable and disable Mendix Studio for the app. For more information on how to perform these actions, see the [Managing Studio on Development Lines](collaborative-development#managing-studio) and [Managing Development Lines](collaborative-development#managing-branches) sections in *Collaborative Development*. 
+In the **Branch Line Manager**, you can [create](create-branch-line-dialog) and delete branch lines, and enable and disable Mendix Studio for the app. For more information on how to perform these actions, see the [Managing Studio on Development Lines](collaborative-development#managing-studio) and [Managing Development Lines](collaborative-development#managing-branches) sections in *Collaborative Development*. 
 
 ## 4 Read More
 
