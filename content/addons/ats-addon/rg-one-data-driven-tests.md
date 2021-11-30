@@ -1,5 +1,6 @@
 ---
 title: "Data-Driven Tests"
+url: /addons/ats-addon/rg-one-data-driven-tests
 parent: "rg-one-test-development"
 menu_order: 8
 ---

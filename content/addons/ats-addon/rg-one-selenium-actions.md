@@ -1,5 +1,6 @@
 ---
 title: "Selenium Actions"
+url: /addons/ats-addon/rg-one-selenium-actions
 parent: "rg-one-standard-actions-reference"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "CAB.03 - Textbox"
+url: /addons/ats-addon/ht-two-cab-03-textbox
 parent: "ht-two-create-unsupported-widget-actions"
 description: "Explains how to create an Unsupported Widget action for the Mendix text box widget."
 tags: ["ATS", "testing"]

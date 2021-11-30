@@ -1,5 +1,6 @@
 ---
 title: "CAB.07 - Radio Buttons"
+url: /addons/ats-addon/ht-two-cab-07-radiobuttons
 parent: "ht-two-create-unsupported-widget-actions"
 description: "Explains step by step how to create an Unsupported Widget action for the Mendix Radio Buttons widget."
 tags: ["ATS", "testing"]

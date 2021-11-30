@@ -1,5 +1,6 @@
 ---
 title: "CAB.05 - Reference Selector"
+url: /addons/ats-addon/ht-two-cab-05-reference-selector
 parent: "ht-two-create-unsupported-widget-actions"
 description: "This how-to explains step by step how to create an Unsupported Widget action for the Mendix Reference Selector widget."
 tags: ["ATS", "testing"]

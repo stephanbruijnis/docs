@@ -1,5 +1,6 @@
 ---
 title: "Standard Actions Reference"
+url: /addons/ats-addon/rg-one-standard-actions-reference
 parent: "rg-one-test-development"
 ---
 
