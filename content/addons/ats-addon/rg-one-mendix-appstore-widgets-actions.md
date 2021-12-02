@@ -1,5 +1,6 @@
 ---
 title: "Mendix Marketplace Widgets Actions"
+url: /addons/ats-addon/rg-one-mendix-appstore-widgets-actions
 parent: "rg-one-standard-actions-reference"
 ---
 

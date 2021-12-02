@@ -1,5 +1,6 @@
 ---
 title: "Input reference Selector"
+url: /addons/ats-addon/rg-one-input-reference-selector
 parent: "rg-one-mendix-appstore-widgets-actions"
 ---
 
