@@ -1,5 +1,6 @@
 ---
 title: "Consumed OData Service Requirements"
+url: /refguide8/consumed-odata-service-requirements
 parent: "consumed-odata-services"
 menu-order: 20
 description: "Requirements on OData services consumed in Mendix."

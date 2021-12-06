@@ -1,5 +1,6 @@
 ---
 title: "CAB.10 - AutoComplete"
+url: /addons/ats-addon/ht-one-cab-10-autocomplete
 parent: "ht-one-create-unsupported-widget-actions"
 description: "This how-to explains step by step how to create an Unsupported Widget action for the AutoComplete widget."
 tags: ["ATS", "testing"]

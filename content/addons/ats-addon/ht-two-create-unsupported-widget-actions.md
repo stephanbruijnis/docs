@@ -1,5 +1,6 @@
 ---
 title: "Create Unsupported Widget Actions"
+url: /addons/ats-addon/ht-two-create-unsupported-widget-actions
 parent: "ht-two-create-custom-actions"
 ---
 

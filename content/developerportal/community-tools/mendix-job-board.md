@@ -1,5 +1,6 @@
 ---
 title: "Jobs Board"
+url: /developerportal/community-tools/mendix-job-board
 category: "Community Tools"
 menu_order: 7
 description: "Describes the board where the Mendix community can post and find job opportunities."

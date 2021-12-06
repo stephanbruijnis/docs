@@ -1,5 +1,6 @@
 ---
 title: "Standard Actions"
+url: /addons/ats-addon/rg-one-standard-action-overview
 parent: "rg-one-test-development"
 menu_order: 4
 ---

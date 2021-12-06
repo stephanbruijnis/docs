@@ -1,5 +1,6 @@
 ---
 title: "CKEditor"
+url: /addons/ats-addon/rg-one-ckeditor
 parent: "rg-one-mendix-appstore-widgets-actions"
 ---
 
