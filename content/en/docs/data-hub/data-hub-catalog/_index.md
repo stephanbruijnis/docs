@@ -15,8 +15,7 @@ The Data Hub Catalog functionality is enhanced by the [Data Hub Landscape](/data
 
 From the Data Hub [Home](https://hub.mendix.com) screen, you can carry out the major functions of Data Hub.
 
-![Data Hub screen](../share-data/attachments/share-data/data-hub-home.png)
-
+![Data Hub screen](/attachments/data-hub/share-data/data-hub-home.png)
 You can navigate to the following tabs:
 
 * **Home** – search in the Data Hub Catalog, manually register a service from different applications, select from the most popular services

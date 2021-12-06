@@ -52,7 +52,7 @@ To see the capabilities of a particular OData entity, do the following:
 2. Select your entity from the left-side search results pane. If you are not seeing many results, try removing the **Production** filter on your search.
 3. Notice the highlighted **CRUD** letters next to the entity name in the search panel and in the detailed information in the center. The purple letters indicate which operations are supported. The gray letters indicate which are not. Hover over the letters to see which operations are supported:
 
-    ![entity capabilities](attachments/crud-info.png)
+    ![entity capabilities](/attachments/data-hub/write-data/crud-info.png)
 
 ## 5 Consuming OData Resources in Your Mendix App
 
@@ -60,7 +60,7 @@ Just like in the Catalog, you can see the **CRUD** capabilities of entities, att
 
 In Studio Pro you might not see all the **CRUD** capabilities highlighted that are highlighted in Data Hub Catalog. A **CRUD** capability will only be highlighted when it is both supported by the contract and by Studio Pro.
 
-![crud capabilities](attachments/crud-capabilities.png)
+![crud capabilities](/attachments/data-hub/write-data/crud-capabilities.png)
 
 To consume an OData entity, do the following:
 
