@@ -83,27 +83,27 @@ To access your IoT data using the OData technology provided by the Mendix Data H
 
 1. On the home page you find a card showing the numbers of already existing contracts.
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_card.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_card.png)
 
 1. Click **View contracts**.
 
 1. You will now see the lists of your already existing contracts or an indication that no contracts are created yet.
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_first.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_first.png)
 
     If no contracts are available, click **Create contract** to start your first one. If you have already some contracts, click **Add contracts** to add another one.
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_add.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_add.png)
 
 1. On the left-hand side, you can select the asset types you want to share within this contract. On the right side you will see a preview of all selected types.
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_wizard_step1.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_wizard_step1.png)
 
 1. Confirm your selection by clicking **Next**.
 
 1. In the **Meta Information** step of the wizard you can specify parameters like the name or the version of your contract. Note that the application name is already pre-filled with a combination of the prefix **mdsp_** and your tenant name. This will help you to find all contracts for your particular tenant within Mendix.
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_wizard_step2.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_wizard_step2.png)
 
 1. Confirm your meta information by clicking **Next**.
 
@@ -112,7 +112,7 @@ To access your IoT data using the OData technology provided by the Mendix Data H
     * Download your contract – if you want to store the contract yourself or you want to use it with an OData provider other than the Mendix Data Hub
     * Publish the contract to the Mendix Data Hub – you must do this if you want to use the asset information within your Mendix project; it is therefore preselected
 
-    ![asset-manager](attachments/mindsphere-app-service/asset_manager_contract_wizard_step3.png)
+    ![asset-manager](/attachments/partners/siemens/mindsphere/mindsphere-app-service/asset_manager_contract_wizard_step3.png)
 
 1. Click the **Submit** button to finalize the creation of your contract.
 
@@ -143,13 +143,13 @@ To authenticate your calls you will need to provide the MindSphere IIoT Authenti
 
 5. Click **Create Keys**.
 
-    ![Binding](attachments/mindsphere-app-service/create-keys.png)
+    ![Binding](/attachments/partners/siemens/mindsphere/mindsphere-app-service/create-keys.png)
 
     You will see a pop-up containing three pieces of information: **clientID**, **TokenURL**, and **clientSecret**.
 
 6. Click **Copy** for each of these pieces of information and save them somewhere safe – you will not be able to access them again.
 
-    ![Binding](attachments/mindsphere-app-service/binding-keys.png)
+    ![Binding](/attachments/partners/siemens/mindsphere/mindsphere-app-service/binding-keys.png)
 
 You can find more information about managing binding keys in the [Subscriptions](/appstore/general/app-store-overview#subscriptions) section of *Marketplace Overview*.
 
@@ -179,7 +179,7 @@ In the **_Use me** folder of the *MindSphereIIotAuthenticator* module set the fo
 
 In the Consumed OData Service document associated with your MindSphere service, set the **Headers from microflow** to be *MindSphereIIoTAuthenticator.AddAuthHeader*. This ensures that the values you have set in the **Use me** folder are passed as HTTP headers with every call to authenticate your app to MindSphere.
 
-![Binding](attachments/mindsphere-app-service/data-hub-authentication.png)
+![Binding](/attachments/partners/siemens/mindsphere/mindsphere-app-service/data-hub-authentication.png)
 
 ## 5 Using MindSphere IIoT for Makers Through REST Calls{#using-rest}
 
@@ -197,11 +197,11 @@ To extract data from MindSphere, your calls to the MindSphere API need to be aut
 
 This is done by adding an **Access token** action before each **Call REST** action in your microflows. The **Access token** action returns a string which contains an access token which can be used in the **Call REST** action. In the example below, the token string is given the name *Token*.
 
-![Authentication](attachments/mindsphere-app-service/access-token.png)
+![Authentication](/attachments/partners/siemens/mindsphere/mindsphere-app-service/access-token.png)
 
 In the REST call, an HTTP Header is added called *Authorization* and this is given the value of the access token.
 
-![Authentication](attachments/mindsphere-app-service/call-rest.png)
+![Authentication](/attachments/partners/siemens/mindsphere/mindsphere-app-service/call-rest.png)
 
 However, authentication will only be successful if the correct credentials are provided to the **Access token** action. This requires the following to be set in the **_Use me** folder of the *MindSphereIIotAuthenticator* module:
 
@@ -209,7 +209,7 @@ However, authentication will only be successful if the correct credentials are p
 * **ClientID** – this is the *clientID* from the binding keys you generated
 * **ClientSecret** – this is the *clientSecret* from the binding keys you generated
 
-![Authentication](attachments/mindsphere-app-service/mindsphereiotauthenticator.png)
+![Authentication](/attachments/partners/siemens/mindsphere/mindsphere-app-service/mindsphereiotauthenticator.png)
 
 ## 6 Authentication Considerations
 
@@ -294,7 +294,7 @@ If your app returns the message "An error occurred, please contact your system a
 
 To ensure that you get full information about MindSphere responses that cause Mendix to return these generic errors, set the **Log Level** for `ODataConsume` to **Trace**, using the instructions in [How To Set Log Levels](/howto/monitoring-troubleshooting/log-levels#standard-log-levels).
 
-![Example of setting the Log Level for ODataConsume](attachments/mindsphere-app-service/odata-log-levels.png)
+![Example of setting the Log Level for ODataConsume](/attachments/partners/siemens/mindsphere/mindsphere-app-service/odata-log-levels.png)
 
 {{% alert type="info" %}}
 Setting log levels to trace can have in impact on performance and should only be done during testing.

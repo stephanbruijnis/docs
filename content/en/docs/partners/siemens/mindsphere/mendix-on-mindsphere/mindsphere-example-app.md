@@ -36,23 +36,23 @@ Open Studio Pro without opening an app and follow these steps:
 
 1. Open the *Switch to* menu in the top bar of Studio Pro and click the Marketplace icon to open the Mendix Marketplace in the browser:
 
-	![](attachments/mindsphere-example-app/app-store-icon.png)
+	![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-icon.png)
 
 2. Enter *MindSphere Operations* in the search box and select **Siemens MindSphere Operations Insight** from the search results:
 
-	![](attachments/mindsphere-example-app/app-store-search.png)
+	![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-search.png)
 
 3. Click **Download**, and store the **Siemens_MindSphere_Operations_Insight_Example.mpk** on your local machine.
 
-	![](attachments/mindsphere-example-app/app-store-download.png)
+	![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download.png)
 
 4. Go back to your Studio Pro and select **Import App Package…** from the **File** menu to import the downloaded app package.
 
-    ![](attachments/mindsphere-example-app/app-store-import-app-package.png)
+    ![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-import-app-package.png)
 
 5. Confirm the **App name**, and the **App directory**, then click **OK**:
 
-	![](attachments/mindsphere-example-app/app-store-download-project.png)
+	![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/app-store-download-project.png)
 
 ## 4 Deploy and Run the Example App
 
@@ -61,11 +61,11 @@ For more information about the deployment options see [Deploying to MindSphere](
 
 To start the Auto Registration process just click the **Publish** button.
 
-![](attachments/mindsphere-example-app/autoreg-publish.png)
+![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-publish.png)
 
 Once your app is deployed to Mendix, click **View App**.
 
-![](attachments/mindsphere-example-app/autoreg-view-app.png)
+![](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-view-app.png)
 
 Your default Browser will open and when your app starts, it will trigger the registration process.
 
@@ -75,19 +75,19 @@ All apps running within MindSphere need to be registered. When you open your app
 
 1. Click **Start Auto Registration**.
 
-	![Choose app registration](attachments/mindsphere-example-app/autoreg-choose-app-registration.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-choose-app-registration.png)
 
 	The process now tries to figure out on which tenant your app should be registered. Therefore you have to sign in
 	
 2. Enter your credentials and click **Sign In**.
 
-	![Choose app registration](attachments/mindsphere-example-app/autoreg-web-key.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-web-key.png)
 
 	{{% alert type="info" %}}If you have more then one tenant with a Developer Cockpit option, MindSphere will present you with a list of those tenants. Choose the tenant in which you want to register your app.<br/><br/>If you have only one tenant on MindSphere, the process will automatically select this tenant for you.{{% /alert %}}
 
 3. Give a **Display Name**, **Internal Name**, and, optionally, a **Description** in order to register your app.
 
-	![Choose app registration](attachments/mindsphere-example-app/autoreg-name-description.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-name-description.png)
 
 	On a **Start for Free** tenant the **admin** role will be assigned automatically to your account. For all other tenants, you have to select at least one application user role which will be assigned to your account automatically.
 
@@ -101,13 +101,13 @@ All apps running within MindSphere need to be registered. When you open your app
 	
 5. Click **Developer Cockpit** to take you to grant access to the APIs.
 
-	![Choose app registration](attachments/mindsphere-example-app/autoreg-registration-completed.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/autoreg-registration-completed.png)
 
 	A new tab opens showing the registration detail of your app.
 	
 6. Click **Configure** to add the required MindSphere roles.
 
-	![Choose app registration](attachments/mindsphere-example-app/devcockpit-app-details.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/devcockpit-app-details.png)
 
 7. Add the following MindSphere API Roles to your app and assign them to correct application roles **admin** and **user**, as shown in the table below:
 
@@ -127,31 +127,31 @@ All apps running within MindSphere need to be registered. When you open your app
     | mdsp:core:tsm.full-access | X |   |
     | mdsp:core:tsm.read-only | X |  X |
 
-	![Choose app registration](attachments/mindsphere-example-app/devcockpit-mdsp-api-roles.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/devcockpit-mdsp-api-roles.png)
 
 	The app configuration is finished now.
 	
 8. Switch back to the **Registration completed!** browser tab and click **Launch your application**, which will start the app.  
 
-	![Choose app registration](attachments/mindsphere-example-app/oi-home.png)
+	![Choose app registration](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/oi-home.png)
 
 ### 4.2 Scopes and Roles{#scopesroles}
 
 The auto registration process has created two MindSphere application Roles *admin* and *user*:
 
-![Developer Cockpit application roles](attachments/mindsphere-example-app/devcockpit-app-roles.png)
+![Developer Cockpit application roles](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/devcockpit-app-roles.png)
 
 You can assign these application roles to users in the *Settings* app found on the launchpad.
 
 In addition, the auto registration process has created two MindSphere application Scopes *admin* and *user* and assigned these to the roles as follows:
 
-![Developer Cockpit application roles](attachments/mindsphere-example-app/devcockpit-app-scopes.png)
+![Developer Cockpit application roles](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/devcockpit-app-scopes.png)
 
 The example app has two Mendix user roles, *Admin* and *User*. These are mapped to the two application scopes *admin* and *user*.
 
 This means that a MindSphere user who is given the **Admin Role** for the app will be given the *admin* scope and will therefore have the Mendix user roles *admin*.
 
-![Relationship of MindSphere App user roles with Mendix App user roles](attachments/mindsphere-example-app/image6.png)
+![Relationship of MindSphere App user roles with Mendix App user roles](/attachments/partners/siemens/mindsphere/mendix-on-mindsphere/mindsphere-example-app/image6.png)
 
 For more information see the MindSphere documentation [Roles & Scopes for Applications](https://developer.mindsphere.io/concepts/concept-roles-scopes.html#available-roles-of-mindsphere-apis).
 
