@@ -79,7 +79,7 @@ Default value: *Yes*
 
 If the REST endpoint has not responded after the number of seconds in **Timeout (s)**, an exception will occur and the microflow will roll back or go into your custom error handler.
 
-Default value: *300 seconds*
+Default value: *30 seconds*
 
 ### 4.5 Proxy Configuration
 
